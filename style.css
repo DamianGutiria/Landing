@@ -51,9 +51,69 @@ body {
 }
 
 .menu .navbar ul li a:hover {
-    
+    color: #266371;
+}
+
+.icons i{
+    display: flex;
+    color:#ffffff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.icons i:hover{
+    color:#266371
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+
+#menu{
+    display: none;
+}
+
+.menu label{
+    cursor: pointer;   /*cursor: hand;*/
+    display: none;
+}
+
+.header-txt{
+    width: 40%;
+}
+
+.header-txt h1 {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#266371;
+    margin-bottom: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header-txt p {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #099fA9;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.btn-1:hover {
+    background-color: #266371;
 }
 
 img {
-    width: 100%;
+    width: 20%;
 }
