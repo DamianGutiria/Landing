@@ -112,8 +112,73 @@ body {
 
 .btn-1:hover {
     background-color: #266371;
+
 }
 
-img {
-    width: 20%;
+.images {
+    width: 800px;   
+    height: 380px;
+    position: absolute;
+    right: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;   
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.swiper-slide h3 {
+    position:absolute;
+    left: 20px;
+    bottom: 20px;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.rows {
+    width: 180px;
+    position: absolute;
+    right: 620px;
+    bottom: 280px;
+}
+
+.swiper-button-prev{
+    height: 50px;
+    width: 50px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.swiper-button-next{
+    height: 50px;
+    width: 50px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+swiper-button-prev::after{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+swiper-button-next::after{
+    font-size: 25px;
+    color: #ffffff;
 }
