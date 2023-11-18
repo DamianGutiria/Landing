@@ -80,7 +80,8 @@ body {
 }
 
 .header-txt{
-    width: 40%;
+    width: 30%;
+
 }
 
 .header-txt h1 {
@@ -90,6 +91,7 @@ body {
     text-transform: uppercase;
     color:#266371;
     margin-bottom: 25px;
+    margin-right: 20px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -219,6 +221,8 @@ swiper-button-next::after{
     }
 
     .header {
+        display: flex;
+        justify-content: space-between;
         padding: 80px 30px 50px 30px;
         align-items: self-start;
         flex-direction: column;
@@ -233,7 +237,7 @@ swiper-button-next::after{
 
     .header-txt h1{
         margin-bottom: 10px;
-    }    
+    }
 
     .images {
         position: initial;
@@ -244,6 +248,4 @@ swiper-button-next::after{
     .rows {
         display: none;
     }
-
-    
 }
